@@ -298,6 +298,18 @@ print(me.philosophy())  # → Raw data in, trustworthy tables out.
   </picture>
 </div>
 
+<h3 align="center">👻 Pac-Man Mode</h3>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wezdar/wezdar/output-pacman/pacman-contribution-graph-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wezdar/wezdar/output-pacman/pacman-contribution-graph.svg" />
+    <img alt="Pac-Man eating the contribution graph" src="https://raw.githubusercontent.com/wezdar/wezdar/output-pacman/pacman-contribution-graph-dark.svg" width="100%" />
+  </picture>
+</div>
+
+<p align="center"><sub>Regenerated nightly by <code>.github/workflows/pacman.yml</code> (abozanona/pacman-contribution-graph) — kept on its own <code>output-pacman</code> branch so it can't clobber the snake's <code>output</code> branch.</sub></p>
+
 <h3 align="center">🎨 3D Animated Profile</h3>
 
 <p align="center">
