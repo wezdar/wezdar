@@ -342,9 +342,9 @@ print(me.philosophy())  # → Raw data in, trustworthy tables out.
 
 <p align="center">
   <a href="https://github.com/wezdar"><img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <!-- Add your LinkedIn / email once you have the links you want public, e.g.: -->
-  <!-- <a href="mailto:you@example.com"><img src="https://img.shields.io/badge/EMAIL-D44638?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a> -->
-  <!-- <a href="https://linkedin.com/in/your-handle"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a> -->
+  <a href="https://www.linkedin.com/in/wezdar-ahmed-0810843a2/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.instagram.com/ahmedwezdar1010/"><img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="mailto:wezdarahmed2024@gmail.com"><img src="https://img.shields.io/badge/EMAIL-D44638?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 <h3 align="center">📝 Guestbook</h3>
