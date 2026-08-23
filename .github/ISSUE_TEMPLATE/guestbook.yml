@@ -1,0 +1,12 @@
+name: 📝 Guestbook
+description: Leave a hello on Ahmed's profile
+title: "[guestbook] "
+labels: ["guestbook"]
+body:
+  - type: textarea
+    id: message
+    attributes:
+      label: Your message
+      placeholder: Say hi, share what you're building, or just drop a note 👋
+    validations:
+      required: true

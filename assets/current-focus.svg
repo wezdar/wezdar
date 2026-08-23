@@ -1,0 +1,66 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+  <rect width="1200" height="260" rx="12" fill="#0d1117"/>
+
+  <!-- tile template: x, y, w=376, h=104 -->
+  <!-- row1 -->
+  <g>
+    <rect x="24" y="24" width="376" height="104" rx="10" fill="#161b22" stroke="#58a6ff" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="46" cy="48" r="4" fill="#3fb950"/>
+    <text x="60" y="52" fill="#8b949e" font-size="11" letter-spacing="0.05em">ACTIVE</text>
+    <text x="46" y="78" fill="#e6edf3" font-size="16" font-weight="600">hamburg-urban-mobility-lakehouse</text>
+    <text x="46" y="102" fill="#8b949e" font-size="12">Airflow · dbt · DuckDB · React</text>
+  </g>
+
+  <g>
+    <rect x="412" y="24" width="376" height="104" rx="10" fill="#161b22" stroke="#f0883e" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3s" begin="0.4s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="434" cy="48" r="4" fill="#3fb950"/>
+    <text x="448" y="52" fill="#8b949e" font-size="11" letter-spacing="0.05em">ACTIVE</text>
+    <text x="434" y="78" fill="#e6edf3" font-size="16" font-weight="600">Hamburg-Port-Intelligence</text>
+    <text x="434" y="102" fill="#8b949e" font-size="12">Port operations · data intelligence</text>
+  </g>
+
+  <g>
+    <rect x="800" y="24" width="376" height="104" rx="10" fill="#161b22" stroke="#3fb950" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3s" begin="0.8s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="822" cy="48" r="4" fill="#3fb950"/>
+    <text x="836" y="52" fill="#8b949e" font-size="11" letter-spacing="0.05em">ACTIVE</text>
+    <text x="822" y="78" fill="#e6edf3" font-size="16" font-weight="600">ecommerce-lakehouse</text>
+    <text x="822" y="102" fill="#8b949e" font-size="12">Python · lakehouse architecture</text>
+  </g>
+
+  <!-- row2 -->
+  <g>
+    <rect x="24" y="140" width="376" height="104" rx="10" fill="#161b22" stroke="#ff7b72" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3s" begin="1.2s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="46" cy="164" r="4" fill="#e3b341"/>
+    <text x="60" y="168" fill="#8b949e" font-size="11" letter-spacing="0.05em">BUILDING</text>
+    <text x="46" y="194" fill="#e6edf3" font-size="16" font-weight="600">patent-data-pipeline</text>
+    <text x="46" y="218" fill="#8b949e" font-size="12">USPTO · WIPO · EPO ingestion</text>
+  </g>
+
+  <g>
+    <rect x="412" y="140" width="376" height="104" rx="10" fill="#161b22" stroke="#a5d6ff" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3s" begin="1.6s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="434" cy="164" r="4" fill="#e3b341"/>
+    <text x="448" y="168" fill="#8b949e" font-size="11" letter-spacing="0.05em">BUILDING</text>
+    <text x="434" y="194" fill="#e6edf3" font-size="16" font-weight="600">wind-farm-analytics v2</text>
+    <text x="434" y="218" fill="#8b949e" font-size="12">Python · Dash · Plotly</text>
+  </g>
+
+  <g>
+    <rect x="800" y="140" width="376" height="104" rx="10" fill="#161b22" stroke="#d2a8ff" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3s" begin="2s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="822" cy="164" r="4" fill="#e3b341"/>
+    <text x="836" y="168" fill="#8b949e" font-size="11" letter-spacing="0.05em">BUILDING</text>
+    <text x="822" y="194" fill="#e6edf3" font-size="16" font-weight="600">FitData-Coach</text>
+    <text x="822" y="218" fill="#8b949e" font-size="12">Training &amp; health assistant</text>
+  </g>
+</svg>
