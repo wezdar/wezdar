@@ -72,7 +72,7 @@ print(me.philosophy())  # → Raw data in, trustworthy tables out.
 
 <p align="center">
   <a href="https://github.com/wezdar">
-    <img src="https://skillicons.dev/icons?i=python,ts,js,postgres,mysql,duckdb,redis,docker,kubernetes,terraform,azure,aws,gcp,git,github,githubactions,linux,bash,vscode,pycharm,jupyter,pandas,numpy,sklearn,react,nodejs,html,css&perline=14" alt="Core tech stack" />
+    <img src="https://skillicons.dev/icons?i=py,ts,js,postgres,mysql,redis,docker,kubernetes,terraform,azure,aws,gcp,git,github,githubactions,linux,bash,vscode,pycharm,sklearn,react,nodejs,html,css&perline=12" alt="Core tech stack" />
   </a>
 </p>
 
@@ -113,6 +113,7 @@ print(me.philosophy())  # → Raw data in, trustworthy tables out.
 <img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" alt="Plotly">
 <img src="https://img.shields.io/badge/Dash-008DE4?style=for-the-badge&logo=plotly&logoColor=white" alt="Dash">
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">
 </p>
 </td>
 </tr>
