@@ -331,6 +331,10 @@ print(me.philosophy())  # → Raw data in, trustworthy tables out.
 
 <p align="center"><sub>3D-printable model of my contribution history — built with GitHub's official <code>gh-skyline</code> CLI extension.</sub></p>
 
+<div align="center">
+  <img src="./assets/skyline-cover.svg" width="100%" alt="Illustrative skyline cover art — the real model is the STL below" />
+</div>
+
 <p align="center">
   <a href="./assets/skyline/wezdar-2026-github-skyline.stl">
     <img src="https://img.shields.io/badge/2026_Skyline-View_STL-58A6FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="2026 skyline STL" />
