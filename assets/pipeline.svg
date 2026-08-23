@@ -1,0 +1,105 @@
+<svg width="1200" height="230" viewBox="0 0 1200 230" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8b949e"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="230" rx="12" fill="#0d1117"/>
+
+  <!-- connectors -->
+  <g stroke="#30363d" stroke-width="2" fill="none">
+    <path id="seg0" d="M170,110 H235" marker-end="url(#arrow)"/>
+    <path id="seg1" d="M335,110 H400" marker-end="url(#arrow)"/>
+    <path id="seg2" d="M500,110 H565" marker-end="url(#arrow)"/>
+    <path id="seg3" d="M665,110 H730" marker-end="url(#arrow)"/>
+    <path id="seg4" d="M830,110 H895" marker-end="url(#arrow)"/>
+    <path id="seg5" d="M995,110 H1060" marker-end="url(#arrow)"/>
+  </g>
+
+  <!-- flowing particles -->
+  <g fill="#58a6ff">
+    <circle r="4">
+      <animateMotion dur="1.8s" begin="0s" repeatCount="indefinite"><mpath href="#seg0"/></animateMotion>
+    </circle>
+    <circle r="4">
+      <animateMotion dur="1.8s" begin="1.8s" repeatCount="indefinite"><mpath href="#seg1"/></animateMotion>
+    </circle>
+    <circle r="4">
+      <animateMotion dur="1.8s" begin="3.6s" repeatCount="indefinite"><mpath href="#seg2"/></animateMotion>
+    </circle>
+    <circle r="4">
+      <animateMotion dur="1.8s" begin="5.4s" repeatCount="indefinite"><mpath href="#seg3"/></animateMotion>
+    </circle>
+    <circle r="4">
+      <animateMotion dur="1.8s" begin="7.2s" repeatCount="indefinite"><mpath href="#seg4"/></animateMotion>
+    </circle>
+    <circle r="4">
+      <animateMotion dur="1.8s" begin="9s" repeatCount="indefinite"><mpath href="#seg5"/></animateMotion>
+    </circle>
+  </g>
+
+  <!-- nodes -->
+  <!-- API -->
+  <g>
+    <rect x="40" y="75" width="130" height="70" rx="10" fill="#161b22" stroke="#58a6ff" stroke-width="2">
+      <animate attributeName="stroke-width" values="2;3.5;2" dur="1.8s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="105" y="106" text-anchor="middle" fill="#58a6ff" font-size="12">INGEST</text>
+    <text x="105" y="128" text-anchor="middle" fill="#e6edf3" font-size="15" font-weight="600">API</text>
+  </g>
+
+  <!-- Kafka -->
+  <g>
+    <rect x="235" y="75" width="100" height="70" rx="10" fill="#161b22" stroke="#f0883e" stroke-width="2">
+      <animate attributeName="stroke-width" values="2;3.5;2" dur="1.8s" begin="1.8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="285" y="106" text-anchor="middle" fill="#f0883e" font-size="12">STREAM</text>
+    <text x="285" y="128" text-anchor="middle" fill="#e6edf3" font-size="15" font-weight="600">Kafka</text>
+  </g>
+
+  <!-- Spark -->
+  <g>
+    <rect x="400" y="75" width="100" height="70" rx="10" fill="#161b22" stroke="#ff7b72" stroke-width="2">
+      <animate attributeName="stroke-width" values="2;3.5;2" dur="1.8s" begin="3.6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="450" y="106" text-anchor="middle" fill="#ff7b72" font-size="12">COMPUTE</text>
+    <text x="450" y="128" text-anchor="middle" fill="#e6edf3" font-size="15" font-weight="600">Spark</text>
+  </g>
+
+  <!-- Data Lake -->
+  <g>
+    <rect x="565" y="75" width="100" height="70" rx="10" fill="#161b22" stroke="#3fb950" stroke-width="2">
+      <animate attributeName="stroke-width" values="2;3.5;2" dur="1.8s" begin="5.4s" repeatCount="indefinite"/>
+    </rect>
+    <text x="615" y="106" text-anchor="middle" fill="#3fb950" font-size="12">STORE</text>
+    <text x="615" y="128" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="600">Data Lake</text>
+  </g>
+
+  <!-- dbt -->
+  <g>
+    <rect x="730" y="75" width="100" height="70" rx="10" fill="#161b22" stroke="#ff6849" stroke-width="2">
+      <animate attributeName="stroke-width" values="2;3.5;2" dur="1.8s" begin="7.2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="780" y="106" text-anchor="middle" fill="#ff6849" font-size="12">TRANSFORM</text>
+    <text x="780" y="128" text-anchor="middle" fill="#e6edf3" font-size="15" font-weight="600">dbt</text>
+  </g>
+
+  <!-- Warehouse -->
+  <g>
+    <rect x="895" y="75" width="100" height="70" rx="10" fill="#161b22" stroke="#a5d6ff" stroke-width="2">
+      <animate attributeName="stroke-width" values="2;3.5;2" dur="1.8s" begin="9s" repeatCount="indefinite"/>
+    </rect>
+    <text x="945" y="106" text-anchor="middle" fill="#a5d6ff" font-size="12">WAREHOUSE</text>
+    <text x="945" y="128" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="600">Warehouse</text>
+  </g>
+
+  <!-- Dashboard -->
+  <g>
+    <rect x="1060" y="75" width="100" height="70" rx="10" fill="#161b22" stroke="#d2a8ff" stroke-width="2">
+      <animate attributeName="stroke-width" values="2;3.5;2" dur="1.8s" begin="10.8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="1110" y="106" text-anchor="middle" fill="#d2a8ff" font-size="12">SERVE</text>
+    <text x="1110" y="128" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="600">Dashboard</text>
+  </g>
+</svg>

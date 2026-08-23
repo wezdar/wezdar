@@ -1,0 +1,56 @@
+<svg width="800" height="330" viewBox="0 0 800 330" xmlns="http://www.w3.org/2000/svg" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace">
+  <defs>
+    <clipPath id="clipL1"><rect x="0" y="0" width="0" height="24"><animate attributeName="width" from="0" to="230" dur="0.01s" begin="0.6s;clock.repeatEvent+0.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="clipL2"><rect x="0" y="0" width="0" height="24"><animate attributeName="width" from="0" to="430" dur="0.01s" begin="1.6s;clock.repeatEvent+1.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="clipL3"><rect x="0" y="0" width="0" height="24"><animate attributeName="width" from="0" to="260" dur="0.01s" begin="3.6s;clock.repeatEvent+3.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="clipL4"><rect x="0" y="0" width="0" height="24"><animate attributeName="width" from="0" to="470" dur="0.01s" begin="4.6s;clock.repeatEvent+4.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="clipL5"><rect x="0" y="0" width="0" height="24"><animate attributeName="width" from="0" to="330" dur="0.01s" begin="6.6s;clock.repeatEvent+6.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="clipL6"><rect x="0" y="0" width="0" height="24"><animate attributeName="width" from="0" to="700" dur="0.01s" begin="7.6s;clock.repeatEvent+7.6s" fill="freeze"/></rect></clipPath>
+  </defs>
+
+  <rect x="0" y="0" width="0" height="0" opacity="0">
+    <animate id="clock" attributeName="opacity" from="0" to="0" dur="13s" begin="0s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect x="1" y="1" width="798" height="328" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <rect x="1" y="1" width="798" height="34" rx="10" fill="#161b22"/>
+  <rect x="1" y="24" width="798" height="11" fill="#161b22"/>
+  <circle cx="24" cy="18" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="18" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="18" r="6" fill="#27c93f"/>
+  <text x="400" y="22" text-anchor="middle" fill="#8b949e" font-size="13">wezdar@data-engineer: ~</text>
+
+  <g font-size="17">
+    <text x="24" y="72" fill="#7ee787">$</text>
+    <g clip-path="url(#clipL1)">
+      <text x="42" y="72" fill="#c9d1d9">whoami</text>
+    </g>
+
+    <g clip-path="url(#clipL2)">
+      <text x="24" y="102" fill="#58a6ff">Ahmed Wezdar — Data Engineer</text>
+    </g>
+
+    <text x="24" y="147" fill="#7ee787">$</text>
+    <g clip-path="url(#clipL3)">
+      <text x="42" y="147" fill="#c9d1d9">cat stack.txt</text>
+    </g>
+
+    <g clip-path="url(#clipL4)">
+      <text x="24" y="177" fill="#e3b341">Python · SQL · Azure · AWS · Docker · Terraform</text>
+    </g>
+
+    <text x="24" y="222" fill="#7ee787">$</text>
+    <g clip-path="url(#clipL5)">
+      <text x="42" y="222" fill="#c9d1d9">./run_pipeline.sh --env=prod</text>
+    </g>
+
+    <g clip-path="url(#clipL6)">
+      <text x="24" y="252" fill="#79c0ff" font-size="15">API → Kafka → Spark → Data Lake → dbt → Warehouse → Dashboard ✅</text>
+    </g>
+
+    <text x="24" y="292" fill="#7ee787">$</text>
+    <rect x="42" y="278" width="10" height="18" fill="#c9d1d9">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
