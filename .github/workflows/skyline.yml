@@ -1,0 +1,33 @@
+name: generate github skyline
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install gh-skyline
+        run: gh extension install github/gh-skyline
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate skyline STL
+        run: |
+          mkdir -p assets/skyline
+          YEAR=$(date +%Y)
+          gh skyline --user wezdar --year "$YEAR" --output "assets/skyline/wezdar-${YEAR}-github-skyline.stl"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update github skyline STL"
+          file_pattern: "assets/skyline/*.stl"

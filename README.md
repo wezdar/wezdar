@@ -298,6 +298,35 @@ print(me.philosophy())  # → Raw data in, trustworthy tables out.
   </picture>
 </div>
 
+<h3 align="center">🎨 3D Animated Profile</h3>
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution profile — night-rainbow style" />
+</p>
+
+<details>
+<summary align="center"><b>More 3D styles</b> — night-view, gitblock, season-animate, south-season</summary>
+<br/>
+<p align="center"><img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D contribution profile — night-view style" /></p>
+<p align="center"><img src="./profile-3d-contrib/profile-gitblock.svg" width="100%" alt="3D contribution profile — gitblock style" /></p>
+<p align="center"><img src="./profile-3d-contrib/profile-season-animate.svg" width="100%" alt="3D contribution profile — season-animate style" /></p>
+<p align="center"><img src="./profile-3d-contrib/profile-south-season.svg" width="100%" alt="3D contribution profile — south-season style" /></p>
+</details>
+
+<p align="center"><sub>Regenerated nightly by <code>.github/workflows/profile-3d.yml</code> (yoshi389111/github-profile-3d-contrib).</sub></p>
+
+<h3 align="center">🏙️ GitHub Skyline</h3>
+
+<p align="center"><sub>3D-printable model of my contribution history — built with GitHub's official <code>gh-skyline</code> CLI extension.</sub></p>
+
+<p align="center">
+  <a href="./assets/skyline/wezdar-2026-github-skyline.stl">
+    <img src="https://img.shields.io/badge/2026_Skyline-View_STL-58A6FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="2026 skyline STL" />
+  </a>
+</p>
+
+<p align="center"><em>Click to open GitHub's built-in 3D viewer. Regenerated nightly by <code>.github/workflows/skyline.yml</code> — the file appears after the workflow's first run.</em></p>
+
 <div align="center">
   <img src="./assets/divider.svg" width="100%" alt="" />
   <img src="https://img.shields.io/badge/CONNECT-WITH_ME-181717?style=flat-square&color=58a6ff&logo=earth&logoColor=white" alt="Connect" width="180">
