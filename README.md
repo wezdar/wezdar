@@ -59,6 +59,7 @@ print(me.philosophy())  # → Raw data in, trustworthy tables out.
   <a href="#projects">Featured Projects</a> •
   <a href="#pins">Pinned Repos</a> •
   <a href="#contributions">Contributions</a> •
+  <a href="#graph3d">3D Graph</a> •
   <a href="#connect">Connect</a>
 </p>
 
@@ -299,15 +300,24 @@ print(me.philosophy())  # → Raw data in, trustworthy tables out.
   </picture>
 </div>
 
-<h3 align="center">🎨 3D Animated Profile</h3>
+<div align="center">
+  <img src="./assets/divider.svg" width="100%" alt="" />
+  <img src="https://img.shields.io/badge/3D-CONTRIBUTION_GRAPH-181717?style=flat-square&color=3fb950&logo=github&logoColor=white" alt="3D Contribution Graph" width="220">
+  <img src="./assets/divider.svg" width="100%" alt="" />
+</div>
+
+<h2 id="graph3d" align="center">📈 3D Contribution Graph</h2>
+
+<p align="center"><sub>A live 3D terrain built from my real contribution history — regenerated nightly, no manual upkeep.</sub></p>
 
 <p align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution profile — night-rainbow style" />
+  <img src="./profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D contribution graph — green animated style" />
 </p>
 
 <details>
-<summary align="center"><b>More 3D styles</b> — night-view, gitblock, season-animate, south-season</summary>
+<summary align="center"><b>More 3D styles</b> — night-rainbow, night-view, gitblock, season-animate, south-season</summary>
 <br/>
+<p align="center"><img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution profile — night-rainbow style" /></p>
 <p align="center"><img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D contribution profile — night-view style" /></p>
 <p align="center"><img src="./profile-3d-contrib/profile-gitblock.svg" width="100%" alt="3D contribution profile — gitblock style" /></p>
 <p align="center"><img src="./profile-3d-contrib/profile-season-animate.svg" width="100%" alt="3D contribution profile — season-animate style" /></p>
