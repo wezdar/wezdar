@@ -77,8 +77,6 @@ print(me.philosophy())  # → Raw data in, trustworthy tables out.
   </a>
 </p>
 
-<p align="center"><sub><i>Skillicons.dev doesn't carry the data-engineering-specific tools (Airflow, Spark, Kafka, dbt, Parquet…) — those are below.</i></sub></p>
-
 <table align="center" width="100%">
 <tr>
 <td align="center" width="50%" valign="top">
@@ -308,8 +306,6 @@ print(me.philosophy())  # → Raw data in, trustworthy tables out.
 
 <h2 id="graph3d" align="center">📈 3D Contribution Graph</h2>
 
-<p align="center"><sub>A live 3D terrain built from my real contribution history — regenerated nightly, no manual upkeep.</sub></p>
-
 <p align="center">
   <img src="./profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D contribution graph — green animated style" />
 </p>
@@ -324,11 +320,7 @@ print(me.philosophy())  # → Raw data in, trustworthy tables out.
 <p align="center"><img src="./profile-3d-contrib/profile-south-season.svg" width="100%" alt="3D contribution profile — south-season style" /></p>
 </details>
 
-<p align="center"><sub>Regenerated nightly by <code>.github/workflows/profile-3d.yml</code> (yoshi389111/github-profile-3d-contrib).</sub></p>
-
 <h3 align="center">🏙️ GitHub Skyline</h3>
-
-<p align="center"><sub>3D-printable model of my contribution history — built with GitHub's official <code>gh-skyline</code> CLI extension.</sub></p>
 
 <div align="center">
   <img src="./assets/skyline-cover.svg" width="100%" alt="Illustrative skyline cover art — the real model is the STL below" />
@@ -339,8 +331,6 @@ print(me.philosophy())  # → Raw data in, trustworthy tables out.
     <img src="https://img.shields.io/badge/2026_Skyline-View_STL-58A6FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="2026 skyline STL" />
   </a>
 </p>
-
-<p align="center"><em>Click to open GitHub's built-in 3D viewer. Regenerated nightly by <code>.github/workflows/skyline.yml</code> — the file appears after the workflow's first run.</em></p>
 
 <div align="center">
   <img src="./assets/divider.svg" width="100%" alt="" />
