@@ -155,13 +155,12 @@ print(me.philosophy())  # → Raw data in, trustworthy tables out.
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=wezdar&show_icons=true&theme=github_dark&hide_border=true&count_private=true&hide_title=true" width="49%" alt="GitHub Stats" />
+  <img src="./assets/stats/stats.svg" width="49%" alt="GitHub Stats" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=wezdar&theme=github-dark-blue&hide_border=true" width="49%" alt="GitHub Streak" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wezdar&layout=compact&theme=github_dark&hide_border=true&hide_title=true" width="49%" alt="Top Languages" />
-  <img src="https://github-profile-trophy.vercel.app/?username=wezdar&theme=dark_dimmed&no-frame=true&row=1&column=4" width="49%" alt="GitHub Trophies" />
+  <img src="./assets/stats/top-langs.svg" width="49%" alt="Top Languages" />
 </div>
 
 <div align="center">
