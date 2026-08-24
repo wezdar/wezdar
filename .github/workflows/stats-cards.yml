@@ -18,7 +18,7 @@ jobs:
         uses: soulteary/github-readme-stats-action@v1.0.0
         with:
           card: stats
-          options: "username=wezdar&show_icons=true&theme=github_dark&hide_border=true&count_private=true&hide_title=true"
+          options: "username=wezdar&show_icons=true&theme=github_dark&hide_border=true&hide_title=true"
           path: assets/stats/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
