@@ -1,5 +1,5 @@
 <a href="https://github.com/wezdar">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:161b22&height=230&section=header&text=Ahmed%20Wezdar&fontSize=56&fontColor=58a6ff&animation=fadeIn&fontAlignY=36&desc=Data%20Engineer%20%E2%80%A2%20Pipelines%20%C2%B7%20Lakehouses%20%C2%B7%20Cloud&descAlignY=58&descSize=18&descColor=8b949e" width="100%" alt="Ahmed Wezdar — Data Engineer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:161b22&height=230&section=header&text=Ahmed%20Wezdar&fontSize=56&fontColor=58a6ff&animation=twinkling&fontAlignY=36&desc=Data%20Engineer%20%E2%80%A2%20Pipelines%20%C2%B7%20Lakehouses%20%C2%B7%20Cloud&descAlignY=58&descSize=18&descColor=8b949e" width="100%" alt="Ahmed Wezdar — Data Engineer" />
 </a>
 
 <p align="center">
